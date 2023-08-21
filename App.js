@@ -20,11 +20,11 @@ import {
 import { initZoom, joinMeeting, startMeeting } from './nativeModules/AwesomeZoomSDK';
 
 const ZOOM_CONFIG = {
-  ZOOM_PUBLIC_KEY : "yT3iqClKSbq1mk95ZFI3Hw",
-  ZOOM_PRIVATE_KEY: "HdZhgOYqXbu8xAZ2j0oiLF7D144XJeJ4",
+  ZOOM_PUBLIC_KEY : "",
+  ZOOM_PRIVATE_KEY: "",
   ZOOM_DOMAIN: "zoom.us",
-  JWT_API_KEY:"oEho2D1cQGico9QnpTRUDg",
-  JWT_API_SECRET_KEY: "oEho2D1cQGico9QnpTRUDg"
+  JWT_API_KEY:"",
+  JWT_API_SECRET_KEY: ""
 }
 
 const meetingNo = "94401251760";
@@ -36,11 +36,11 @@ const userName = "zelhus";
 const App = () => {
 
   const [zoomConfig, setZoomConfig] = useState({
-    ZOOM_PUBLIC_KEY : "yT3iqClKSbq1mk95ZFI3Hw",
-    ZOOM_PRIVATE_KEY: "HdZhgOYqXbu8xAZ2j0oiLF7D144XJeJ4",
+    ZOOM_PUBLIC_KEY : "",
+    ZOOM_PRIVATE_KEY: "",
     ZOOM_DOMAIN: "zoom.us",
-    JWT_API_KEY:"oEho2D1cQGico9QnpTRUDg",
-    JWT_API_SECRET_KEY: "oEho2D1cQGico9QnpTRUDg"
+    JWT_API_KEY:"",
+    JWT_API_SECRET_KEY: ""
   })
   const [zoomAuth,setZoomAuth] = useState({
     meetingNo : "94401251760", 

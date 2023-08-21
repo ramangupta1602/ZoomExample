@@ -6,7 +6,7 @@ const {AwesomeZoomSDK} = NativeModules;
 
 async function initZoom(publicKey, privateKey, domain) {
   console.log('calling zoom', AwesomeZoomSDK);
-  const response = await AwesomeZoomSDK.initZoom(publicKey="yT3iqClKSbq1mk95ZFI3Hw", privateKey="HdZhgOYqXbu8xAZ2j0oiLF7D144XJeJ4", domain="zoom.us");
+  const response = await AwesomeZoomSDK.initZoom(publicKey="", privateKey="", domain="zoom.us");
 
   console.log('Response', response);
 }
